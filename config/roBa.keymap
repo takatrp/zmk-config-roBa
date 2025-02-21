@@ -45,11 +45,6 @@
             bindings = <&kp AT>;
             key-positions = <39 10>;
         };
-
-        layer6 {
-            bindings = <&to 6>;
-            key-positions = <39 38 37>;
-        };
     };
 
     macros {
@@ -77,7 +72,7 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                          &kp Y        &kp U    &lt 5 I   &kp O     &kp P
+&lt 6 Q           &kp W         &kp E         &kp R      &kp T                                          &kp Y        &kp U    &lt 5 I   &kp O     &kp P
 &kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &kp PERCENT    &kp H        &kp J    &kp K     &kp L     &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &kp ESCAPE         &kp COLON      &kp N        &lt 5 M  &mkp MB1  &mkp MB2  &kp LEFT_SHIFT
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 2 SPACE  &lt 1 CAPS         &kp BACKSPACE  &lt 1 ENTER                               &kp DEL
@@ -137,7 +132,7 @@
             bindings = <
 &trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &lt 5 M       &trans        &trans        &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
         };
