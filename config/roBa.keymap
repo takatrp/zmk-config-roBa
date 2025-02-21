@@ -83,10 +83,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                    &kp N7        &kp N8        &kp N9        &kp PLUS   &kp ASTERISK
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp INT_YEN      &kp PERCENT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &kp SLASH
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EXCL      &kp QMARK        &kp AT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA  &kp PERIOD
-&trans                      &trans           &trans           &trans           &trans        &trans           &kp N0       &kp PERIOD                                           &kp EQUAL
+&kp MINUS                   &kp KP_NUMBER_7  &kp UP_ARROW     &kp KP_NUMBER_9  &kp PLUS                                &kp N7        &kp N8        &kp N9        &kp PLUS   &kp ASTERISK
+&kp HOME                    &kp LEFT         &kp DOWN_ARROW   &kp RIGHT        &kp END   &kp INT_YEN      &kp PERCENT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &kp SLASH
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp INT_YEN      &kp EXCL  &kp QMARK        &kp AT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA  &kp PERIOD
+&trans                      &trans           &trans           &trans           &trans    &trans           &kp N0       &kp PERIOD                                           &kp EQUAL
             >;
         };
 
