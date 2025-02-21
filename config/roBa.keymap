@@ -45,6 +45,11 @@
             bindings = <&kp AT>;
             key-positions = <39 10>;
         };
+
+        layer6 {
+            bindings = <&to 6>;
+            key-positions = <39 38 37>;
+        };
     };
 
     macros {
