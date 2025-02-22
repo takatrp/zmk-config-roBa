@@ -83,7 +83,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 2 SPACE  &lt 1 CAPS         &kp BACKSPACE  &lt 1 ENTER                               &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         NUM {
@@ -105,7 +105,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                       &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LC(K_SCROLL_UP) LC(K_SCROLL_DOWN)>;
         };
 
         FUNCTION {
