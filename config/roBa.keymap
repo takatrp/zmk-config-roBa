@@ -33,7 +33,7 @@
 
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+            key-positions = <19 20>;
         };
 
         eq {
@@ -44,6 +44,11 @@
         attmark {
             bindings = <&kp AT>;
             key-positions = <39 10>;
+        };
+
+        single-quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <7 8>;
         };
     };
 
