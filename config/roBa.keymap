@@ -88,10 +88,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp UP_ARROW      &kp KP_NUMBER_9  &kp PLUS                               &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp PLUS
-&kp HOME                    &kp LEFT         &kp DOWN_ARROW    &kp RIGHT        &kp END   &kp K_MUTE      &kp PERCENT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp MINUS
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp K_CALCULATOR  &kp INT_YEN      &kp EXCL  &kp QMARK       &kp AT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &kp PERIOD
-&trans                      &trans           &trans            &trans           &trans    &trans          &kp N0       &kp PERIOD                                              &kp EQUAL
+&kp MINUS                   &kp KP_NUMBER_7  &kp UP_ARROW      &kp AMPERSAND  &kp PLUS                               &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp PLUS
+&kp HOME                    &kp LEFT         &kp DOWN_ARROW    &kp RIGHT      &kp END   &kp K_MUTE      &kp PERCENT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp MINUS
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp K_CALCULATOR  &kp INT_YEN    &kp EXCL  &kp QMARK       &kp AT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &kp PERIOD
+&trans                      &trans           &trans            &trans         &trans    &trans          &kp N0       &kp PERIOD                                              &kp EQUAL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -99,10 +99,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans    &trans    &kp UP_ARROW  &trans     &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp HOME  &kp LEFT  &kp DOWN      &kp RIGHT  &kp END
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans    &trans    &trans        &trans     &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                       &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                              &trans    &trans    &kp UP_ARROW  &trans     &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &kp SLASH      &kp HOME  &kp LEFT  &kp DOWN      &kp RIGHT  &kp END
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp AMPERSAND  &trans    &trans    &trans        &trans     &trans
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans         &trans                                       &trans
             >;
         };
 
