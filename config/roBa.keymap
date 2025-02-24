@@ -77,10 +77,10 @@
 
         default_layer {
             bindings = <
-&lt 6 Q           &kp W         &kp E         &kp R      &kp T                                          &kp Y        &kp U    &lt 5 I   &kp O     &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &kp LC(C)      &kp H        &kp J    &kp K     &kp L     &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &lt 6 ESCAPE       &kp LC(V)      &kp N        &lt 5 M  &mkp MB1  &mkp MB2  &kp LEFT_SHIFT
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 2 SPACE  &lt 1 CAPS         &kp BACKSPACE  &lt 1 ENTER                               &kp DEL
+&lt 6 Q    &kp W         &kp E         &kp R      &kp T                                          &kp Y        &kp U    &lt 5 I   &kp O     &kp P
+&kp A      &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &kp LC(C)      &kp H        &kp J    &kp K     &kp L     &kp MINUS
+&kp Z      &kp X         &kp C         &kp V      &kp B        &lt 6 ESCAPE       &kp LC(V)      &kp N        &lt 5 M  &mkp MB1  &mkp MB2  &kp LEFT_SHIFT
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 2 SPACE  &lt 1 CAPS         &kp BACKSPACE  &lt 1 ENTER                               &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
@@ -89,7 +89,7 @@
         NUM {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp UP_ARROW      &kp AMPERSAND  &kp PLUS                               &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp PLUS
-&kp HOME                    &kp LEFT         &kp DOWN_ARROW    &kp RIGHT      &kp END   &kp K_MUTE      &kp PERCENT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp MINUS
+&kp HOME                    &kp LEFT         &kp DOWN_ARROW    &kp RIGHT      &kp END   &kp C_MUTE      &kp PERCENT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp MINUS
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp K_CALCULATOR  &kp INT_YEN    &kp EXCL  &kp QMARK       &kp AT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &kp PERIOD
 &trans                      &trans           &trans            &trans         &trans    &trans          &kp N0       &kp PERIOD                                              &kp EQUAL
             >;
