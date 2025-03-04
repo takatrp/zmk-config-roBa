@@ -51,10 +51,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp PLUS                               &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp PLUS
-&kp HOME                    &kp LESS_THAN         &kp GREATER_THAN       &kp RIGHT      &kp END   &kp C_MUTE      &kp PERCENT  &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
-&mt LEFT_SHIFT KP_NUMBER_0  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp INT_YEN    &kp EXCL  &kp QMARK       &kp AT       &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
-&trans                      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans    &trans          &kp N0       &kp PERIOD                                              &kp EQUAL
+&kp APOSTROPHE              &kp TAB               &kp UP_ARROW           &kp AMPERSAND  &kp PLUS                               &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp PLUS
+&kp HOME                    &kp LEFT              &kp DOWN               &kp RIGHT      &kp END   &kp C_MUTE      &kp PERCENT  &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
+&mt LEFT_SHIFT KP_NUMBER_0  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp INT_YEN    &kp EXCL  &kp QMARK       &kp AT       &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
+&trans                      &kp LESS_THAN         &kp GREATER_THAN       &trans         &trans    &trans          &kp N0       &kp PERIOD                                              &kp EQUAL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -62,10 +62,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                              &trans    &trans    &kp UP_ARROW  &trans     &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &kp SLASH      &kp HOME  &kp LEFT  &kp DOWN      &kp RIGHT  &kp END
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp AMPERSAND  &trans    &trans    &trans        &trans     &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans         &trans                                       &trans
+&kp ESCAPE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(TAB)              &trans                              &trans    &trans    &kp UP_ARROW  &trans     &trans
+&kp HOME        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_ARROW          &kp END  &trans      &kp SLASH      &kp HOME  &kp LEFT  &kp DOWN      &kp RIGHT  &kp END
+&kp LEFT_SHIFT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp AMPERSAND  &trans    &trans    &trans        &trans     &trans
+&trans          &kp LESS_THAN         &kp GREATER_THAN       &trans                   &trans   &trans      &trans         &trans                                       &trans
             >;
         };
 
