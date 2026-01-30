@@ -62,9 +62,9 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(TAB)              &trans                              &trans    &trans    &kp UP_ARROW  &trans     &trans
+&kp ESCAPE      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(TAB)              &trans                              &trans    &trans    &kp UP_ARROW  &trans     &trans
 &kp HOME        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_ARROW          &kp END  &trans      &kp SLASH      &kp HOME  &kp LEFT  &kp DOWN      &kp RIGHT  &kp END
-&kp LEFT_SHIFT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp AMPERSAND  &trans    &trans    &trans        &trans     &trans
+&kp LEFT_SHIFT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp AMPERSAND  &trans    &trans    &trans        &trans     &trans
 &trans          &kp LESS_THAN         &kp GREATER_THAN       &trans                   &trans   &trans      &trans         &trans                                       &trans
             >;
         };
